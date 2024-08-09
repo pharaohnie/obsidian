@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/AI/音频/生成 Hubert npy 文件/","tags":["AI","语音","数字人","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/AI/音频/生成 Hubert npy 文件/","tags":["AI","语音","数字人","gardenEntry"]}
 ---
+
+[GitHub - newgenai79/talking\_face\_preprocessing\_windows: Preprocessing Scipts for Talking Face Generation](https://github.com/newgenai79/talking_face_preprocessing_windows)
 
 > npy 文件可用于 anitalker 的数字人生成
 # 1 安装
