@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"//excel/","tags":["excel"]}
 ---
 
-
-
 工具 -> 宏 -> VB 编辑器
 
 ![](http://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/2024-08-08-093943.png)
