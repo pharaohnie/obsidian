@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ai//cosy-voice/","tags":["AI","语音"]}
+{"dg-publish":true,"permalink":"/AI/音频/CosyVoice 训练/","tags":["AI","语音"]}
 ---
 
 # 1 流程

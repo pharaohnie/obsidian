@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ai//gpt-so-vits/","tags":["gpt-sovits","davinci"]}
+{"dg-publish":true,"permalink":"/AI/音频/GPT-SoVITS 训练/","tags":["gpt-sovits","davinci"]}
 ---
 
 
