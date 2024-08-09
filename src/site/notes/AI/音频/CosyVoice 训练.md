@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/AI/音频/CosyVoice 训练/","tags":["AI","语音"]}
 ---
 
+[GitHub - FunAudioLLM/CosyVoice: Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.](https://github.com/FunAudioLLM/CosyVoice)
 # 1 流程
 
 1. 准备语音集（参考 [[AI/音频/GPT-SoVITS 训练\|GPT-SoVITS 训练]] 中的 2-7 步）

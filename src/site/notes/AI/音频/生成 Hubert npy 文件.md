@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/AI/音频/生成 Hubert npy 文件/","tags":["AI","语音","数字人","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/AI/音频/生成 Hubert npy 文件/","tags":["AI","语音","数字人","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 > npy 文件可用于 anitalker 的数字人生成
