@@ -154,7 +154,7 @@ fi
 chmod +x /usr/local/bin/iterm2-zmodem
 ```
 
-Add triggers in iTerm 2 'Preferences...' -> 'Profiles' -> 'Advanced' -> 'Trigger', click 'Edit'
+配置 iterm2， `Preferences...` -> `Profiles` -> `Advanced` -> `Trigger`, click `Edit`
 
 ``` text
 Regular expression: rz waiting to receive.\*\*B0100
