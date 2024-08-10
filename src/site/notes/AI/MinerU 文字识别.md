@@ -8,4 +8,8 @@
 conda create -n MinerU python=3.10 -y
 conda activate MinerU
 pip install magic-pdf[full]==0.7.0b1 --extra-index-url https://wheels.myhloli.com -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+mkdir MinerU
+cd MinerU
+git lfs clone https://huggingface.co/wanderkid/PDF-Extract-Kit
 ```
