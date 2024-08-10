@@ -25,8 +25,8 @@ python run.py --execution-provider cuda
 # 3 Mac 电脑
 
 `!!! 用 cpu 计算，超级慢
-修改 `modules/ui.py`
-找到 `cap = cv2.VideoCapture(0)`，把 `0` 改为 mac 摄像头的序号
+
+修改 `modules/ui.py`，找到 `cap = cv2.VideoCapture(0)`，把 `0` 改为 mac 摄像头的序号
 
 ``` bash
 pip install --use-pep517 basicsr
