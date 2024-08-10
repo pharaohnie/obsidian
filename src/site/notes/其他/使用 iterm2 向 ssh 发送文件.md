@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/其他/使用 iterm2 向 ssh 发送文件/","tags":["mac","iterm2"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/其他/使用 iterm2 向 ssh 发送文件/","tags":["mac","iterm2"]}
 ---
 
 
