@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/AI/文本/MinerU 文字识别/","tags":["ocr"]}
+{"dg-publish":true,"permalink":"/AI/文本/MinerU 文字识别/","tags":["ocr"],"noteIcon":""}
 ---
 
 [GitHub - opendatalab/MinerU: A one-stop, open-source, high-quality data extraction tool, supports PDF/webpage/e-book extraction.一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取。](https://github.com/opendatalab/MinerU)
