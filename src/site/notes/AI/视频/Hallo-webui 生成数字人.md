@@ -26,3 +26,20 @@ demo.launch(inbrowser=True, share=share_url, server_name="0.0.0.0")
 ```
 
 运行 `python app.py`
+
+或者用命令行启动
+``` bash
+python scripts/inference.py \
+  --source_image szr.jpg \
+  --driving_audio audio.wav \
+  --output output/szr.mp4 \
+  --setting_steps 100 \
+  --setting_cfg 3.5 \
+  --settings_seed 42 \
+  --settings_fps 25 \
+  --settings_motion_pose_scale 1 \
+  --settings_motion_face_scale 1 \
+  --settings_motion_lip_scale 1 \
+  --settings_n_motion_frames 2 \
+  --settings_n_sample_frames 16
+```
