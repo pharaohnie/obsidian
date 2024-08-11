@@ -90,13 +90,11 @@ ROLES=皇帝,皇上,四郎
 `!!! zhenhuan.jsonl 并不是标准格式，是一个临时的过程文件`
 
 
+## 1.3 几种训练集
 
-## 1.3 几种训练集的转换
-
-### 1.3.1 格式区别
 
 一共有三种训练集：`json`、`jsonl`、`parquet`
-#### 1.3.1.1 json
+### 1.3.1 json
 ``` json
 [
   {
@@ -111,14 +109,15 @@ ROLES=皇帝,皇上,四郎
   }
 ]
 ```
+经过几次测试，可以直接使用 `json` 格式，能够直接放到本地，不需要上传到 `huggingface`。
 
-#### 1.3.1.2 jsonl
+### 1.3.2 jsonl
 ```
 {"input": "徐进良", "output": "请皇上翻牌子。"}
 {"role": "小厦子", "dialogue": "皇上，太后来了。"}
 ```
 
-#### 1.3.1.3 paraquet
+### 1.3.3 paraquet
 
 Parquet文件是一种列式存储格式，广泛用于大数据处理和分析。它有以下几个显著特点：
 
@@ -144,4 +143,94 @@ pip install -e ".[torch,metrics,bitsandbytes,awq,vllm,qwen,modelscope]"
 pip install oss2 addict
 ```
 
+# 3 设置 llama factory 的数据集
 
+以训练某人说话风格为例，把 `huangdi.json` 放到 `LLaMA-Factory/data`
+``` json
+[
+  {
+    "system": "用四郎的口吻回答问题",
+    "input": "皇上，您这半个月都没进后宫了，要是今天再不翻牌子，那太后一定会怪罪奴才的。",
+    "output": "哪来那么多话？",
+    "instruction": ""
+  }
+]
+```
+
+编辑 `LLaMA-Factory/data/dataset_info.json`，加入
+``` json
+[
+  "huangdi": {
+    "file_name": "huangdi.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+]
+```
+这里的 `columns` 是和 `huangdi.json` 中的键对应的。
+
+
+
+
+# 4 开始微调
+
+运行 `run.sh`
+``` bash
+#!/bin/bash
+
+export OMP_NUM_THREADS=1
+export CUDA_VISIBLE_DEVICES=0
+#export CUDA_VISIBLE_DEVICES=0,1,2
+export CUTLASS_PATH=/home/cutlass
+
+如果想从 modelscope下载模型，取销这行注释
+#export USE_MODELSCOPE_HUB=1
+
+cd /home/LLaMA-Factory
+source .venv/bin/activate
+llamafactory-cli webui
+```
+
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408111710853.png)
+选择模型和方法
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408111711290.png)
+选择训练、SFT 和数据集。
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408111712751.png)
+预览数据集
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408111712655.png)
+设置学习率、轮数、批处理大小。
+
+点击 `开始` 后，可以在 console 界面看到
+``` text
+input_ids:
+[11883, 64803, 104703, 9554, 40526, 7305, 119, 113925, 87219, 198, 35075, 25, 220, 105600, 17905, 125653, 44388, 103268, 19483, 9953, 72368, 72027, 42399, 34547, 112880, 35287, 114985, 21043, 110916, 88356, 16937, 111602, 104241, 45829, 106169, 101402, 34547, 111419, 38093, 107297, 108789, 117694, 102280, 9554, 9174, 72803, 25, 106189, 37507, 111498, 43240, 58543, 11571, 128001]
+inputs:
+用四郎的口吻回答问题
+Human: 皇上，您这半个月都没进后宫了，要是今天再不翻牌子，那太后一定会怪罪奴才的。
+Assistant:哪来那么多话？<|end_of_text|>
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 106189, 37507, 111498, 43240, 58543, 11571, 128001]
+labels:
+哪来那么多话？<|end_of_text|>
+```
+
+这里就知道 llama factory 中 `inputs`、`Human`、`Assistant` 对应数据集的都是什么内容了。
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408111845159.png)
+
+在 llama factory 右下角可以看到 `损失率` 的图，一般降到 0.5 就可以了。
+如果降不到 0.5，有 3 个办法。
+1. 增大数据集
+2. 增大学习率
+3. 增大训练轮数
+
+# 5 推理测试
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408111848573.png)
