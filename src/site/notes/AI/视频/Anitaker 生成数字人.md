@@ -78,6 +78,10 @@ CUDA_VISIBLE_DEVICES=0 python extract_audio_features.py \
 
 # 4 合成视频
 
+设置好 `test_image_path`、`test_audio_path`、`test_hubert_path`
+`--face_sr` 可以让生成的视频分辨率提高到 512x512
+对比之下，感觉 `hubert_pose_only` 的效果会好一些。
+
 ``` bash
 python ./code/demo.py \
     --infer_type 'hubert_full_control' \
