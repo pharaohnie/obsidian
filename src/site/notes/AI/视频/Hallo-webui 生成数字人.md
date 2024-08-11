@@ -18,11 +18,11 @@ pip install onnxruntime-gpu
 
 如果希望在 `0.0.0.0` 上监听，修改 `app.py` 的最后一行
 ``` python
-    demo.launch(inbrowser=True, share=share_url)
+demo.launch(inbrowser=True, share=share_url)
 ```
 为
 ``` python
-    demo.launch(inbrowser=True, share=share_url, server_name="0.0.0.0")
+demo.launch(inbrowser=True, share=share_url, server_name="0.0.0.0")
 ```
 
 运行 `python app.py`
