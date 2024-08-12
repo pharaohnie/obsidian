@@ -3,6 +3,9 @@
 ---
 
 
+
+# 1 安装
+
 ``` bash
 git clone https://github.com/daswer123/hallo-webui
 cd hallo-webui
@@ -25,21 +28,40 @@ demo.launch(inbrowser=True, share=share_url)
 demo.launch(inbrowser=True, share=share_url, server_name="0.0.0.0")
 ```
 
-运行 `python app.py`
+# 2 准备素材
+找一张 512x512 的 jpg，命名为 `szr.jpg`  放到根目录下。
+如果不够清晰，用 `Topaz Gigapixel AI` 进行修复。修复完后记得缩小为 512x512。
 
-或者用命令行启动
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408122033466.png)
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408122034105.png)
+
+音频改名为 `audio.wav`，也放到根目录下。
+
+# 3 生成
+
+运行 `python app.py`，或者用命令行启动
 ``` bash
 python scripts/inference.py \
   --source_image szr.jpg \
   --driving_audio audio.wav \
   --output output/szr.mp4 \
-  --setting_steps 100 \
+  --setting_steps 80 \
   --setting_cfg 3.5 \
   --settings_seed 42 \
   --settings_fps 25 \
-  --settings_motion_pose_scale 1 \
-  --settings_motion_face_scale 1 \
+  --settings_motion_pose_scale 1.1 \
+  --settings_motion_face_scale 1.1 \
   --settings_motion_lip_scale 1 \
   --settings_n_motion_frames 2 \
   --settings_n_sample_frames 16
 ```
+
+`!!! 过程非常慢，1 分钟的音频生成时间在 1 个小时左右。`
+
+# 4 后处理
+因为生成的数字人视频只有 25fps，而且感觉有闪烁。需要使用 `Topaz Video AI` 处理。
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408122036065.png)
+
+![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408122037207.png)

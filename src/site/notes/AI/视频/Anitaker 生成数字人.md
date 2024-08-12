@@ -5,6 +5,8 @@
 
 [GitHub - X-LANCE/AniTalker: \[ACM MM 2024\] This is the official code for "AniTalker: Animate Vivid and Diverse Talking Faces through Identity-Decoupled Facial Motion Encoding"](https://github.com/X-LANCE/AniTalker)
 
+效果没有 [[AI/视频/Hallo-webui 生成数字人\|Hallo]] 好
+
 # 1 安装 antitalker
 
 ``` bash
