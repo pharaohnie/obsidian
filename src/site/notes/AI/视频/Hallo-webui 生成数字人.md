@@ -55,6 +55,7 @@ python scripts/inference.py \
   --settings_motion_lip_scale 1 \
   --settings_n_motion_frames 2 \
   --settings_n_sample_frames 16
+ffmpeg -y -i output/szr.mp4 -c:v copy -c:a aac output/szr-aac.mp4
 ```
 
 `!!! 过程非常慢，1 分钟的音频生成时间在 1 个小时左右。`
