@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/AI/文本/Llama Factory 微调/","tags":["AI","微调","llama_factory"]}
 ---
 
-# 1 准备数据集
+[]()# 1 准备数据集
 
 ## 1.1 选项 1：提取一般数据集
 
