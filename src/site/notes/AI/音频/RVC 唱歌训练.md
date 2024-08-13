@@ -41,8 +41,10 @@ python infer-web.py
 1. 设置模型名称
 2. 数据路径设置为 `/home/Retrieval-based-Voice-Conversion-WebUI/data/`
 3. 点击 `Process data`
+
 ![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408130847741.png)
-点击 `Feature extraction`
+点击 `Feature extraction
+`
 ![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202408130847476.png)
 点击 `One-click training`
 
