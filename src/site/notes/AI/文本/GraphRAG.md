@@ -268,7 +268,7 @@ python -m graphrag.query \
 ```
 
 ### 5.4.7 不输出 [Data:xxx]
-查询时加上`不要输出[Data:xxx]
+查询时加上`不要输出[Data｜Entities:xxx]
 
 ``` bash
 python -m graphrag.query --root ./sanxiao --method global "三小的特色是什么？不要输出[Data|Entities: xxx]" --response_type "Single Sentence"
