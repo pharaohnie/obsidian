@@ -65,9 +65,9 @@ python -m graphrag.prompt_tune \
   --output sanxiao/prompts
 ```
 
-# 4 开始索引
+# 4 索引
 ``` bash
-python -m graphrag.index --verbose --root ./sanxiao/ --no-cache
+python -m graphrag.index --verbose --root ./sanxiao/ --nocache
 ```
 
 # 5 查询
