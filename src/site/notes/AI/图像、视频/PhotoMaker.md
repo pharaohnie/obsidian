@@ -21,20 +21,20 @@ pip install einops onnxruntime-gpu
 编辑 `/root/miniconda3/envs/photomaker/lib/python3.10/site-packages/photomaker/pipeline_t2i_adapter.py`
 注释掉 `resume_download=resume_download,`，如下：
 ```python
-        if not isinstance(pretrained_model_name_or_path_or_dict, dict):
-            model_file = _get_model_file(
-                pretrained_model_name_or_path_or_dict,
-                weights_name=weight_name,
-                cache_dir=cache_dir,
-                force_download=force_download,
-#                resume_download=resume_download,
-                proxies=proxies,
-                local_files_only=local_files_only,
-                token=token,
-                revision=revision,
-                subfolder=subfolder,
-                user_agent=user_agent,
-            )
+if not isinstance(pretrained_model_name_or_path_or_dict, dict):
+    model_file = _get_model_file(
+        pretrained_model_name_or_path_or_dict,
+        weights_name=weight_name,
+        cache_dir=cache_dir,
+        force_download=force_download,
+        # resume_download=resume_download,
+        proxies=proxies,
+        local_files_only=local_files_only,
+        token=token,
+        revision=revision,
+        subfolder=subfolder,
+        user_agent=user_agent,
+    )
 ```
 
 修改 `gradio_demo/app_v2.py`，最后一行改为 `demo.launch(server_name="0.0.0.0")`
