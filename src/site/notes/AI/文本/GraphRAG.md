@@ -40,7 +40,7 @@ entity_extraction:
 
 
 编辑 `.env`
-``` text
+``` yaml
 # 配置索引模型
 GRAPHRAG_LLM_API_KEY=sk-xxx
 GRAPHRAG_LLM_MODEL=gpt-4o-mini
@@ -51,10 +51,10 @@ GRAPHRAG_EMBEDDING_API_KEY=sk-xxx
 GRAPHRAG_EMBEDDING_MODEL=text-embedding-3-large
 GRAPHRAG_EMBEDDING_API_BASE=https://api.openai.com/v1
 
-GRAPHRAG_ENTITY_EXTRACTION_ENTITY_TYPES="办学理念,事件" # 这里定义关心的实体，用英文逗号分隔
+GRAPHRAG_ENTITY_EXTRACTION_ENTITY_TYPES="办学理念,事件,人物,部门" # 这里定义关心的实体，用英文逗号分隔
 ```
 
-`!!! 可以索引的时候使用 gpt-4o-mini 或 deepseek-chat，查询的时候使用gpt-4o`
+`!!! 可以索引的时候使用 gpt-4o-mini，查询的时候使用gpt-4o`
 
 # 3 自动优化提示词
 ``` bash
@@ -271,7 +271,7 @@ python -m graphrag.query \
 查询时加上`不要输出[Data:xxx]
 
 ``` bash
-python -m graphrag.query --root ./sanxiao --method global "三小的特色是什么？不要输出[Data: xxx]" --response_type "Single Sentence"
+python -m graphrag.query --root ./sanxiao --method global "三小的特色是什么？不要输出[Data|Entities: xxx]" --response_type "Single Sentence"
 
 INFO: Reading settings from sanxiao/settings.yaml
 creating llm client with {'api_key': 'REDACTED,len=51', 'type': "openai_chat", 'model': 'gpt-4o-mini', 'max_tokens': 4000, 'temperature': 0.0, 'top_p': 1.0, 'n': 1, 'request_timeout': 180.0, 'api_base': 'https://oneapi.ibreakwall.me:1443/v1', 'api_version': None, 'organization': None, 'proxy': None, 'cognitive_services_endpoint': None, 'deployment_name': None, 'model_supports_json': False, 'tokens_per_minute': 0, 'requests_per_minute': 0, 'max_retries': 10, 'max_retry_wait': 10.0, 'sleep_on_rate_limit_recommendation': True, 'concurrent_requests': 25}
