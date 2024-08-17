@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/文件/规章制度/XX平台用户和权限管理制度/"}
+{"dg-publish":true,"permalink":"/文件/规章制度/XX平台用户和权限管理制度/","tags":["规章制度"]}
 ---
 
 # 1 总则
