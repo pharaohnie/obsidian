@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/AI/图像、视频/SimpleTuner 训练 Flux Lora/","tags":["lora","flux","simpletuner"]}
+{"dg-publish":true,"permalink":"/AI/图像、视频/SimpleTuner 训练 Flux Lora/","tags":["lora","flux"]}
 ---
 
 参考文章：[GitHub - ostris/ai-toolkit: Various AI scripts. Mostly Stable Diffusion stuff.](https://github.com/ostris/ai-toolkit)
