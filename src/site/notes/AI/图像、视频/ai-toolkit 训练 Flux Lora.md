@@ -16,6 +16,11 @@ pip3 install -r requirements.txt
 
 
 # 2 配置
+新增一个 `.env`，配置huggingface的 token
+```text
+HF_TOKEN=hf_gxxxxx
+```
+
 `./config/flux.yaml`
 
 ```yaml
