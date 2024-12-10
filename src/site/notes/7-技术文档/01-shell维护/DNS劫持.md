@@ -196,7 +196,7 @@ dns3：222.249.170.188/27 网关：222.249.170.161
 
 pdns-recursor配置文件
 下载链接：[网盘](https://p.bjai.pro/s/iXstTQnJ8ZQXtkS)
-密码：tAtAJEc5Rq
+
 
 配置文件恢复到/etc/
 
