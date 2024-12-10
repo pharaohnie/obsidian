@@ -13,4 +13,4 @@ qm move_disk <VMID> <DISK_ID> <TARGET_STORAGE>
 ```
 
 例如
-`qm move_disk 238 scsi0 synology-lvm`
+`qm move_disk 246 scsi0 synology-lvm`
