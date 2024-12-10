@@ -294,7 +294,31 @@ killasgroup=true
 
 # 4 6to4 服务
 
-## 4.1 haproxy
+## 4.1 IP信息
+`!!! 注意接口名称`
+/etc/network/interfaces
+```
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto eno1
+iface eno1 inet static
+  mtu 1280
+  address 222.249.170.163
+  netmask 255.255.255.224
+  gateway 222.249.170.161
+  dns-nameservers 219.141.140.10
+
+iface eno1 inet6 static
+  address 240e:604:208:1919::2
+  netmask 64
+  gateway 240e:604:208:1919::1
+```
+
+## 4.2 haproxy
 安装haproxy
 
 配置文件
@@ -1179,7 +1203,7 @@ backend BACKEND_HTTP_zzks.bjeea.cn
   server zzks.bjeea.cn_58.129.246.53 58.129.246.53:80 check
 ```
 
-## 4.2 其他脚本
+## 4.3 其他脚本
 
 /etc/haproxy/batch.sh
 
