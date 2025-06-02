@@ -28,3 +28,7 @@
 })();
 ```
 
+
+![image.png|650](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202506021646378.png)
+
+把token填入到KnowledgeGrab中
