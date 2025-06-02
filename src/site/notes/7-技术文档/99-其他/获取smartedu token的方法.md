@@ -6,9 +6,6 @@
 下载：https://github.com/alterem/knowledge-grab/releases/download/v1.0.1/KnowledgeGrab_1.0.0_x64_en-US.msi
 
 
-![image.png|650](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202506021645374.png)
-
-
 
 1. **打开浏览器**，访问[国家中小学智慧教育平台](https://auth.smartedu.cn/uias/login)并**登录账号**。
 2. 按下 **F12** 或 **Ctrl+Shift+I**，或右键——检查（审查元素）打开**开发者工具**，选择**控制台（Console）**。
@@ -32,3 +29,5 @@
 ![image.png|650](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202506021646378.png)
 
 把token填入到KnowledgeGrab中
+
+![image.png|650|650](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202506021647848.png)
