@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/pve 磁盘迁移/","tags":["pve"]}
+{"dg-publish":true,"permalink":"/7/01-shell/pve/","tags":["pve"]}
 ---
 
 先找到vm在哪台pve上。
