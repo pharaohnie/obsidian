@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/tree 生成目录结构/","tags":["bash","tree"]}
+{"dg-publish":true,"permalink":"/7/01-shell/tree/","tags":["bash","tree"],"dg-note-properties":{"tags":["bash","tree"]}}
 ---
 
 

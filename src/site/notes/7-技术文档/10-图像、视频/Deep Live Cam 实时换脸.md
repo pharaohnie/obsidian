@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/10-图像、视频/Deep Live Cam 实时换脸/","tags":["数字人","AI"]}
+{"dg-publish":true,"permalink":"/7/10/deep-live-cam/","tags":["数字人","AI"],"dg-note-properties":{"tags":["数字人","AI"]}}
 ---
 
 # 1 基础安装

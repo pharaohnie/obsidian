@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/10-图像、视频/ai-toolkit 训练 Flux Lora/","tags":["lora","flux"]}
+{"dg-publish":true,"permalink":"/7/10/ai-toolkit-flux-lora/","tags":["lora","flux"],"dg-note-properties":{"tags":"lora,flux"}}
 ---
 
 参考文章：[GitHub - ostris/ai-toolkit: Various AI scripts. Mostly Stable Diffusion stuff.](https://github.com/ostris/ai-toolkit)

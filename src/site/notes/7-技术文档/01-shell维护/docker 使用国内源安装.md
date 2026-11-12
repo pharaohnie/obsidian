@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/docker 使用国内源安装/","tags":["docker"]}
+{"dg-publish":true,"permalink":"/7/01-shell/docker/","tags":["docker"],"dg-note-properties":{"tags":["docker"]}}
 ---
 
 ```bash

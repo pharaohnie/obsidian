@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/pve 统计 vm 的磁盘 io/","tags":["pve"]}
+{"dg-publish":true,"permalink":"/7/01-shell/pve-vm-io/","tags":["pve"],"dg-note-properties":{"tags":["pve"]}}
 ---
 
 ```bash

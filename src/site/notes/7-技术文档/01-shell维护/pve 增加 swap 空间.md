@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/pve 增加 swap 空间/","tags":["pve"]}
+{"dg-publish":true,"permalink":"/7/01-shell/pve-swap/","tags":["pve"],"dg-note-properties":{"tags":["pve"]}}
 ---
 
 

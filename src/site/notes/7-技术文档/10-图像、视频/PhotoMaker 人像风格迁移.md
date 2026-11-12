@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/10-图像、视频/PhotoMaker 人像风格迁移/","tags":["数字人"]}
+{"dg-publish":true,"permalink":"/7/10/photo-maker/","tags":["数字人"],"dg-note-properties":{"tags":["数字人"]}}
 ---
 
 

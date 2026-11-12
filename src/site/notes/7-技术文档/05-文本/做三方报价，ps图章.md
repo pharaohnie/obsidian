@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/做三方报价，ps图章/","tags":["photoshop"]}
+{"dg-publish":true,"permalink":"/7/05/ps/","tags":["photoshop"],"dg-note-properties":{"tags":["photoshop"]}}
 ---
 
 

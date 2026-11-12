@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/10-图像、视频/Anitaker 生成数字人/","tags":["AI","数字人"]}
+{"dg-publish":true,"permalink":"/7/10/anitaker/","tags":["AI","数字人"],"dg-note-properties":{"tags":"AI,数字人"}}
 ---
 
 

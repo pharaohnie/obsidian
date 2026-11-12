@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/15-音频/RVC 唱歌训练/","tags":["AI"]}
+{"dg-publish":true,"permalink":"/7/15/rvc/","tags":["AI"],"dg-note-properties":{"tags":["AI"]}}
 ---
 
 # 1 安装

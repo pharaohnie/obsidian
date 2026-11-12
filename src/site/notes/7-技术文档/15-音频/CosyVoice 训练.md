@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/15-音频/CosyVoice 训练/","tags":["AI","语音"]}
+{"dg-publish":true,"permalink":"/7/15/cosy-voice/","tags":["AI","语音"],"dg-note-properties":{"tags":"AI,语音"}}
 ---
 
 [GitHub - FunAudioLLM/CosyVoice: Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.](https://github.com/FunAudioLLM/CosyVoice)

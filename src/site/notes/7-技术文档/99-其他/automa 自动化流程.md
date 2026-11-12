@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/99-其他/automa 自动化流程/","tags":["automa"]}
+{"dg-publish":true,"permalink":"/7/99/automa/","tags":["automa"],"dg-note-properties":{"tags":["automa"]}}
 ---
 
 

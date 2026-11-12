@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/GraphRAG/","tags":["知识库","graphrag"]}
+{"dg-publish":true,"permalink":"/7/05/graph-rag/","tags":["知识库","graphrag"],"dg-note-properties":{"tags":["知识库","graphrag"]}}
 ---
 
 # 1 安装

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/virtualenv 修改路径/","tags":["python","pip","venv"]}
+{"dg-publish":true,"permalink":"/7/01-shell/virtualenv/","tags":["python","pip","venv"],"dg-note-properties":{"tags":["python","pip","venv"]}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/10-图像、视频/DH_Live 数字人/","tags":["数字人"]}
+{"dg-publish":true,"permalink":"/7/10/dh-live/","tags":["数字人"],"dg-note-properties":{"tags":["数字人"]}}
 ---
 
 [GitHub - kleinlee/DH\_live: 每个人都能用的数字人](https://github.com/kleinlee/DH_live)

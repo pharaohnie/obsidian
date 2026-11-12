@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/99-其他/删除 excel 表单元格中的空行/","tags":["excel"]}
+{"dg-publish":true,"permalink":"/7/99/excel/","tags":["excel"],"dg-note-properties":{"tags":"excel"}}
 ---
 
 工具 -> 宏 -> VB 编辑器

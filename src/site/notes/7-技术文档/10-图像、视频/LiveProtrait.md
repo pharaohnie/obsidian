@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/10-图像、视频/LiveProtrait/","tags":["数字人"]}
+{"dg-publish":true,"permalink":"/7/10/live-protrait/","tags":["数字人"],"dg-note-properties":{"tags":["数字人"]}}
 ---
 
 # 1 安装

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/安装 NEO4J/","tags":["neo4j"]}
+{"dg-publish":true,"permalink":"/7/05/neo-4-j/","tags":["neo4j"],"dg-note-properties":{"tags":["neo4j"]}}
 ---
 
 ```bash

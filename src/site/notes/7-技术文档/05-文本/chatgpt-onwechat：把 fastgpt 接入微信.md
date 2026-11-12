@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/chatgpt-onwechat：把 fastgpt 接入微信/","tags":["fastgpt"]}
+{"dg-publish":true,"permalink":"/7/05/chatgpt-onwechat-fastgpt/","tags":["fastgpt"],"dg-note-properties":{"tags":["fastgpt"]}}
 ---
 
 实现功能：

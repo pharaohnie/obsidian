@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/10-图像、视频/stable diffusion webui forge/","tags":["sd-webui"]}
+{"dg-publish":true,"permalink":"/7/10/stable-diffusion-webui-forge/","tags":["sd-webui"],"dg-note-properties":{"tags":["sd-webui"]}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/jumpserver 更新证书/","tags":["jumpserver","证书"]}
+{"dg-publish":true,"permalink":"/7/01-shell/jumpserver/","tags":["jumpserver","证书"],"dg-note-properties":{"tags":["jumpserver","证书"]}}
 ---
 
 进入 `/opt/jumpserver/config/nginx/cert` 目录，备份之前的 `server.pem` 和 `server.key`

@@ -1,14 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/gamma配置/"}
+{"dg-publish":true,"permalink":"/7/05/gamma/","dg-note-properties":{}}
 ---
 
 
 # 1 组件
+
+43.255.200.141
 guacamole：负责远程桌面的管理
 xrdp：远程桌面
 openbox：xwindow管理器
 fcitx5：中文输入
 firefox-esr：浏览器
+
+
 
 
 
@@ -193,6 +197,10 @@ services:
     restart: always
 ```
 
+[http://43.255.200.141:8181/#/](http://43.255.200.141:8181/#/)
+admin
+xxxxx
+
 ## 3.2 配置连接
 
 ![image.png](https://nxl-tuchuang.oss-cn-beijing.aliyuncs.com/202412040953446.png)
@@ -206,6 +214,12 @@ services:
 
 
 # 4 用户配置
+
+
+linux user （用于登录xrdp）---> guacamole的连接
+                                   ^
+		  guamole的用户 -----------|
+
 
 创建用户
 
@@ -269,45 +283,215 @@ firefox-esr --no-remote --kiosk "https://gamma.app/create"
 
 URLS on the domain：gamma.app
 ```
-.css-c8wqv { display: none;}
-div.chakra-stack.css-1d4nxqf > div:nth-child(1) > div:nth-child(3) > div > button:nth-child(2) {display:none;}
-button.chakra-link {display:none;}
-div.css-k008qs:nth-child(8) {display:none;}
-div.css-k008qs:nth-child(5) {display:none;}
-#menu-list-\:r4h\:-menuitem-\:r59\: {display:none;}
-#menu-list-\:r4h\:-menuitem-\:r5b\: {display:none;}
-.css-1np2ko3 {display:none;}
-div.css-1igwmid:nth-child(2) > span:nth-child(4)  {display:none;}
-div.chakra-alert:nth-child(2)  {display:none;}
-div.css-e7bl9g:nth-child(3) {display:none;}
-li.chakra-wrap__listitem:nth-child(1) {display:none;}
-li.chakra-wrap__listitem:nth-child(2)  {display:none;}
-li.chakra-wrap__listitem:nth-child(4) {display:none;}
-#menu-list-\:r4h\:-menuitem-\:rtj\:  {display:none;}
-#menu-list-\:r4h\:-menuitem-\:r53\: {display:none;}
-.css-ilr7x7 {display:none;}
-hr.chakra-divider:nth-child(1) {display:none;}
-.css-174i91n {display:none;}
-.css-wkblhz {display:none;}
-.css-14h18p5 {display:none;}
-.css-1cggwyz > div:nth-child(1) {display:none;}
-.css-1bk0lf8 {display:none;}
-```
+.css-c8wqv {
+    display: none;
+}
 
-### 5.2.2 code2
-URLs matching the regexp: https://gamma.app/create
+div.chakra-stack.css-1d4nxqf > div:nth-child(1) > div:nth-child(3) > div > button:nth-child(2) {
+    display: none;
+}
 
-```
-button.chakra-button.css-mbvp51 {
+
+button.chakra-link {
+    display: none;
+}
+
+
+div.css-k008qs:nth-child(8) {
+    display: none;
+}
+
+
+div.css-k008qs:nth-child(5) {
+    display: none;
+}
+
+#menu-list-\:r4h\:-menuitem-\:r59\: {
+    display: none;
+}
+
+#menu-list-\:r4h\:-menuitem-\:r5b\: {
+    display: none;
+}
+
+.css-1np2ko3 {
+    display: none;
+}
+
+div.css-1igwmid:nth-child(2) > span:nth-child(4) {
+    display: none;
+}
+
+div.chakra-alert:nth-child(2) {
+    display: none;
+}
+
+
+#div.css-e7bl9g:nth-child(3) {
+    display: none;
+}
+
+li.chakra-wrap__listitem:nth-child(1) {
+    display: none;
+}
+
+li.chakra-wrap__listitem:nth-child(2) {
+    display: none;
+}
+
+li.chakra-wrap__listitem:nth-child(4) {
+    display: none;
+}
+
+#menu-list-\:r4h\:-menuitem-\:rtj\ : {
+    display: none;
+}
+
+#menu-list-\:r4h\:-menuitem-\:r53\: {
+    display: none;
+}
+
+.css-ilr7x7 {
+    display: none;
+}
+
+hr.chakra-divider:nth-child(1) {
+    display: none;
+}
+
+.css-174i91n {
+    display: none;
+}
+
+.css-wkblhz {
+    display: none;
+}
+
+.css-14h18p5 {
+    display: none;
+}
+
+.css-1cggwyz > div:nth-child(1) {
+    display: none;
+}
+
+.css-1bk0lf8 {
+    display: none;
+}
+
+.css-1vdvauk {
+    display: none;
+}
+#menu-list-\:rmv\: > div:nth-child(2) {
+    display: none;
+}
+
+#menu-list-\:rmv\:-menuitem-\:rnj\: {
+    display: none;
+}
+#menu-list-\:rmv\:-menuitem-\:rnl\: {
+    display: none;
+}
+#menu-list-\:rmv\:-menuitem-\:rnn\: {
+    display: none;
+}
+#menu-list-\:rmv\:-menuitem-\:rno\: {
+    display: none;
+}
+#menu-list-\:rmv\:-menuitem-\:rnp\: {
+    display: none;
+}
+
+.css-12es58p > p:nth-child(1) {
+    display: none;
+}
+.css-n3uhkm {
+    display: none;
+}
+button.css-1l9sx88:nth-child(3) {
+    display: none;
+}
+button.css-1l9sx88:nth-child(4) {
+    display: none;
+}
+div.chakra-stack:nth-child(4) {
+    display: none;
+}
+.chakra-alert {
+    display: none;
+}
+.chakra-modal__footer {
+    display: none;
+}
+
+.css-bjz9m6 {
+    display: none;
+}
+.css-1o3i1xt {
+    display: none;
+}
+#menu-button-\:rs0\: {
+    display: none;
+}
+#menu-button-\:rrd\: {
+    display: none;
+}
+
+#menu-list-\:rgo\: > div:nth-child(2) {
+    display: none;
+}
+#menu-list-\:rgo\:-menuitem-\:rhc\: {
+    display: none;
+}
+#menu-list-\:rgo\:-menuitem-\:rhe\: {
+    display: none;
+}
+#menu-list-\:rgo\:-menuitem-\:rhg\: {
+    display: none;
+}
+#menu-list-\:rgo\:-menuitem-\:rhh\: {
+    display: none;
+}
+#menu-list-\:rgo\:-menuitem-\:rhi\: {
+    display: none;
+}
+
+#menu-button-\:rlr\: {
+    display: none;
+}
+#menu-button-\:rl8\: {
     display: none;
 }
 ```
 
 
-### 5.2.3 code3
-URLs starting with: https://gamma.app/create/generate
-```
-div.chakra-container:nth-child(1) {display:none;}
-.css-uv9e93 {display:none;}
+
+# 6 .xsession
+
+```bash
+#!/bin/sh
+
+openbox-session &
+
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS="@im=fcitx5"
+export DefaultIMModule=fcitx5
+fcitx5 &
+
+firefox-esr "https://gamma.app/create"
+#firefox-esr --no-remote --kiosk "https://gamma.app/create"
 ```
 
+
+# 7 gamma账号
+
+206483@qq.com
+Kiosk@024
+
+# 8 restart_xrdp.sh
+```bash
+systemctl restart xrdp
+systemctl restart xrdp-sesman.service
+pkill Xorg
+```

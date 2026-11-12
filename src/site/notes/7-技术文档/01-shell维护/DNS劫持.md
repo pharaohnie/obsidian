@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/DNS劫持/"}
+{"dg-publish":true,"permalink":"/7/01-shell/dns/","dg-note-properties":{}}
 ---
 
 #DNS

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/iterm2 向 ssh 发送文件/","tags":["mac","iterm2"]}
+{"dg-publish":true,"permalink":"/7/01-shell/iterm2-ssh/","tags":["mac","iterm2"],"dg-note-properties":{"tags":["mac","iterm2"]}}
 ---
 
 

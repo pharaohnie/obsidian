@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/docker 安装/","tags":["docker"]}
+{"dg-publish":true,"permalink":"/7/01-shell/docker/","tags":["docker"],"dg-note-properties":{"tags":["docker"]}}
 ---
 
 
@@ -19,7 +19,7 @@ echo \
 apt-get clean && rm -rf /var/lib/apt/lists/*
 apt update
 apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
-wget -O /usr/local/bin/docker-compose "https://github.com/docker/compose/releases/download/v2.29.2/docker-compose-linux-x86_64"
+wget -O /usr/local/bin/docker-compose "https://github.com/docker/compose/releases/download/v5.0.0/docker-compose-linux-x86_64"
 chmod +x /usr/local/bin/docker-compose
 
 ```

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7/01-shell/pve/","tags":["pve"]}
+{"dg-publish":true,"permalink":"/7/01-shell/pve/","tags":["pve"],"dg-note-properties":{"tags":"pve"}}
 ---
 
 先找到vm在哪台pve上。

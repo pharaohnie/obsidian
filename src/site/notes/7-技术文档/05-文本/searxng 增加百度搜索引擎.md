@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/searxng 增加百度搜索引擎/","tags":["searxng","百度"]}
+{"dg-publish":true,"permalink":"/7/05/searxng/","tags":["searxng","百度"],"dg-note-properties":{"tags":["searxng","百度"]}}
 ---
 
 在 searxng 的 `settings.yml` 中增加

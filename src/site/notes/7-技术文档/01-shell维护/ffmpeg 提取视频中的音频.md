@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/ffmpeg 提取视频中的音频/","tags":["ffmpeg"]}
+{"dg-publish":true,"permalink":"/7/01-shell/ffmpeg/","tags":["ffmpeg"],"dg-note-properties":{"tags":["ffmpeg"]}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/acme.sh 把 acme.sh 的证书转换为 pfx 格式/","tags":["证书"]}
+{"dg-publish":true,"permalink":"/7/01-shell/acme-sh-acme-sh-pfx/","tags":["证书"],"dg-note-properties":{"tags":["证书"]}}
 ---
 
 ```bash

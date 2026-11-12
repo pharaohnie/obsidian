@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/bjai.pro 增加 fastgpt知识库/","tags":["fastgpt"]}
+{"dg-publish":true,"permalink":"/7/05/bjai-pro-fastgpt/","tags":["fastgpt"],"dg-note-properties":{"tags":["fastgpt"]}}
 ---
 
 # 1 fastgpt 新增 api key

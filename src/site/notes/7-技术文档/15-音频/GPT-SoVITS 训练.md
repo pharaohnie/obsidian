@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/15-音频/GPT-SoVITS 训练/","tags":["gpt-sovits","davinci"]}
+{"dg-publish":true,"permalink":"/7/15/gpt-so-vits/","tags":["gpt-sovits","davinci"],"dg-note-properties":{"tags":"gpt-sovits,davinci"}}
 ---
 
 [GitHub - RVC-Boss/GPT-SoVITS: 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)](https://github.com/RVC-Boss/GPT-SoVITS)

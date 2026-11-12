@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/05-文本/Llama Factory 微调/","tags":["AI","微调","llama_factory"]}
+{"dg-publish":true,"permalink":"/7/05/llama-factory/","tags":["AI","微调","llama_factory"],"dg-note-properties":{"tags":["AI","微调","llama_factory"]}}
 ---
 
 # 1 准备数据集

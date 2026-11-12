@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7-技术文档/01-shell维护/docker 的 proxy 配置/","tags":["docker","proxy"]}
+{"dg-publish":true,"permalink":"/7/01-shell/docker-proxy/","tags":["docker","proxy"],"dg-note-properties":{"tags":["docker","proxy"]}}
 ---
 
 
@@ -32,11 +32,14 @@ start_pre() {
 
 # 3 docker build
 ``` bash
-docker build . \
-    --build-arg "HTTP_PROXY=http://sd:Stable@scripts.ibreakwall.me:18884" \
-    --build-arg "HTTPS_PROXY=http://sd:Stable@scripts.ibreakwall.me:18884 \
-    --build-arg "NO_PROXY=localhost,127.0.0.1" \
-    -t your/image:tag
+docker builder prune -a -f
+
+docker build -t aippt \
+  --build-arg HTTP_PROXY=http://sd:Stable@scripts.ibreakwall.me:18884 \
+  --build-arg HTTPS_PROXY=http://sd:Stable@scripts.ibreakwall.me:18884 \
+  --build-arg NO_PROXY=localhost,127.0.0.1 \
+  --build-arg NEXT_PUBLIC_BASE_PATH=/new_aippt \
+  .
 ```
 
 # 4 container
